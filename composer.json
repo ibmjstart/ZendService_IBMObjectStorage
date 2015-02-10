@@ -6,6 +6,12 @@
         "zf2",
         "openstack"
     ],
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "https://packages.zendframework.com/"
+        }
+    ],
     "homepage": "http://packages.zendframework.com/",
     "license": "BSD-3-Clause",
     "autoload": {
