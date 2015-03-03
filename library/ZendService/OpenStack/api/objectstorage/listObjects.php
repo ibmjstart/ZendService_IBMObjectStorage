@@ -9,12 +9,12 @@
  */
 
 return array(
-    'url' => '/' . urlencode($param[0]),
+    'url' => '/' . urlencode($params[0]),
     'header' => array(
         'Content-Type' => 'application/json'
     ),
     'method' => 'GET',
     'response' => array(
-        'valid_codes' => array('204')
+        'valid_codes' => array('200', '204')
     )
 );
