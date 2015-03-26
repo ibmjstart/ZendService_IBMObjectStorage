@@ -21,7 +21,6 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendservice-api": "dev-master",
-        "zendframework/zend-http": ">=2.1.4"
+        "zendframework/zendservice-api": "dev-master"
     }
 }
