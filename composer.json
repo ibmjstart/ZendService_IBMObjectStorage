@@ -21,7 +21,6 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendservice-api": "1.0.0",
         "zendframework/zend-http": ">=2.1.4"
     }
 }
