@@ -44,7 +44,7 @@ class ObjectStorage extends AbstractOpenStack
         $this->api->setApiPath(__DIR__ . '/api/objectstorage');
         $this->api->setQueryParams(array('format' => 'json'));
         $this->api->setUrl($this->options['url']);
-        $auth = base64_encode($this->options['user'] . ':' . $this->options['key']);
+        $auth = base64_encode($this->options['user'] . ':' . $this->options['key'] . ':' . $this->options['projectId']);
 
         if (!$this->encodedAuth($auth)) {
             throw new Exception\RuntimeException(
